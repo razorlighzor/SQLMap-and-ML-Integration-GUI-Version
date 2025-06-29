@@ -6,13 +6,13 @@ Built for cybersecurity professionals, penetration testers, and web app security
 
 ## Features:
 
-Machine Learning detection engine (default: Random Forest)
-SQLmap integration for CLI-level testing
-Fallback execution from ML to SQLmap if ML fails
-Batch URL testing
-Session cookie handling for authenticated targets
-Logging of test results for analysis
-
+1. Machine Learning detection engine (default: Random Forest)
+2. SQLmap integration for CLI-level testing
+3. Fallback execution from ML to SQLmap if ML fails
+4. Batch URL testing
+5. Session cookie handling for authenticated targets
+6. Logging of test results for analysis
+</br>
 This tool is intended for ethical security testing. Usage against targets without explicit permission is strictly prohibited.
 
 ## Project Structure:
