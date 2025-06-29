@@ -45,12 +45,12 @@ Trained model files (placed in modelfile/):
 project/</br>
 └── sqlmap/
 </br> └── sqlmap.py
-4. Verify that modelfile/ contains: best_random_forest_full.pkl
+4. Verify that modelfile/ contains: **best_random_forest_full.pkl**
 
 ## How to Run:
 1. Initiate the script using the bash file provided in the repository
-2. or:
-a. cd GUI
+2. or:</br>
+a. cd GUI</br>
 b. python SQLiGUI.py/py SQLiGUIpy
 
 ## How to Use:
