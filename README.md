@@ -49,8 +49,8 @@ project/</br>
 
 ## How to Run:
 1. Initiate the script using the bash/Windows Batch file provided in the repository
-2. or:</br>
-a. cd GUI</br>
+2. or at Command Prompt/Terminal:</br>
+a. cd /GUI</br>
 b. python SQLiGUI.py/py SQLiGUIpy/python3 SQLiGUI.py
 
 ## How to Use:
