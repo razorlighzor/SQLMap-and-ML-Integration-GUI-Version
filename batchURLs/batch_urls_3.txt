@@ -1,0 +1,10 @@
+http://192.168.28.6/bWAPP/sqli_1.php?title=&action=search
+http://192.168.28.6/bWAPP/sqli_2.php?movie=1&action=go
+http://192.168.28.6/bWAPP/sqli_9.php?title=&action=search
+http://192.168.28.6/bWAPP/sqli_11.php?title=&action=search
+http://192.168.28.6/bWAPP/sqli_4.php?title=&action=search
+http://192.168.28.6/bWAPP/portal.php
+http://192.168.28.6/bWAPP/sqli_1.php
+http://192.168.28.6/bWAPP/sqli_15.php
+http://192.168.28.6/bWAPP/sqli_17.php
+http://192.168.28.6/bWAPP/sqli_14.php
