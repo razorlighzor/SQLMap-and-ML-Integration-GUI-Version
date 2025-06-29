@@ -40,7 +40,7 @@ Trained model files (placed in modelfile/):
 ```best_random_forest_full.pkl```
 
 
-1. Clone this repository (including SQLmap): </br>```git clone https://github.com/razorlighzor/SQLMap-and-ML-Integration-GUI-Version/tree/main``` </br> ```git clone https://github.com/sqlmapproject/sqlmap```
+1. Clone this repository (including SQLmap): </br>```git clone https://github.com/razorlighzor/SQLMap-and-ML-Integration-GUI-Version/``` </br> ```git clone https://github.com/sqlmapproject/sqlmap```
 2. Download or clone SQLmap and place it inside the sqlmap/ folder (make a new sqlmap/ folder inside the main project folder):</br>
 project/</br>
 └── sqlmap/
