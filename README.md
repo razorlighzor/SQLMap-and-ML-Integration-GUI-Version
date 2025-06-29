@@ -102,3 +102,6 @@ Future improvements may include:
 2. User authentication for the GUI
 3. Real-time web app integration
 
+## Dataset:
+Dataset can be collected here in case users want to create their own ML: </br>
+https://www.kaggle.com/code/iniestamoh/eda-sql-injection-dataset/notebook
