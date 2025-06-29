@@ -8,7 +8,9 @@ from datetime import datetime
 import ml_module_handler
 
 selected_model_path = "modelfile/best_random_forest_full.pkl"
-selected_batch_path = None
+modelfile_path = "modelfile/"
+batchfile_path = "batchURLs/"
+logfile_path = "logs/"
 # --- Helper Functions ---
 
 def open_ml_mode():
@@ -38,7 +40,7 @@ def select_model_file():
     global selected_model_path
     model_file = filedialog.askopenfilename(title="Select ML Model File", 
                                             filetypes=[("Pickle Files", "*.pkl")],
-                                            initialdir=r"C:\Users\Admin\OneDrive - Universiti Kuala Lumpur\BuildingSQLi\GUI\modelfile")
+                                            initialdir=modelfile_path)
     if model_file:
         selected_model_path = model_file
         messagebox.showinfo("Model Selected", f"Model selected:\n{model_file}")
@@ -168,7 +170,7 @@ def load_batch_file():
     filepath = filedialog.askopenfilename(
         title="Open Batch URL File", 
         filetypes=[("Text Files", "*.txt")],
-        initialdir=r"C:\Users\Admin\OneDrive - Universiti Kuala Lumpur\BuildingSQLi\GUI\batchURLs"
+        initialdir=batchfile_path
     )
     
     if filepath:
@@ -264,7 +266,7 @@ def run_sqlmap_batch():
 def view_previous_logs():
     log_file = filedialog.askopenfilename(title="Select Log File", 
                                           filetypes=[("Text Files", "*.txt")],
-                                          initialdir=r"C:\Users\Admin\OneDrive - Universiti Kuala Lumpur\BuildingSQLi\GUI\logs")
+                                          initialdir=logfile_path)
     if log_file:
         with open(log_file, "r", encoding="utf-8") as file:
             log_content = file.read()
